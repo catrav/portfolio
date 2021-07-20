@@ -28,27 +28,26 @@ h1 {
   border-width: 2px;
 }
 a[href="index2.html"] {
-  highlight: yellow;
-  border-bottom-style: dashed;
-  border-color: red;
+  background-color: yellow;
+  padding: 1rem;
 }
 a[href="excel.html"] {
-  background-color: green;
+  background-color: yellow;
   padding: 1rem;
 }
 a[href="comics.html"] {
-  background-color: dodgerblue;
+  background-color: yellow;
   padding: 1rem;
 }
 a[href="cook.html"] {
-  background-color: black;
+  background-color: yellow;
   padding: 1rem;
 }
 a[href="tv.html"] {
-  background-color: orange;
+  background-color: yellow;
   padding: 1rem;
 }
 a[href="music.html"] {
-  background-color: magenta;
+  background-color: yellow;
   padding: 1rem;
 }
