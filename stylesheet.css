@@ -1,53 +1,59 @@
-p.bright {
-  color: Green;
+ul {
+display: flex;
+justify-content: center;
+align-items: center;
+  list-style: none;
+
+  background-color: purple;
 }
-body {
-  background-color: gray;
+
+li {
+  width: 50px;
+  height: 40px;
+  margin: 6px;
+  padding: 4px;
+
 }
-.important {
+
+li a {
+
+  color: white;
   font-weight: bold;
-  border: 3px dashed magenta;
 }
-img {
-  border-style: dashed;
-  border-color: black;
-  border-width: 3px;
-  width: 30%;
+
+li a:hover {
+  background-color: grey;
 }
+
+.box-2 {
+  height: 4rem;
+  background-color: red;
+  padding: 1rem;
+  border: 3px;
+  margin-bottom: 1.5rem;
+  margin-top: -2rem;
+  color: white;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgrey;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-camera {
+  color: dodgerblue;
+}
+
+
 h1 {
-  color: blue;
-  border-style: solid;
-  border-width: 2px;
-}
-.p-text {
-  color: rgba(113,16,40,1);
-}
-.important:hover {
-  background-color: #46ee38FF;
-  border-style: solid;
-  border-width: 2px;
-}
-a[href="index2.html"] {
-  background-color: yellow;
-  padding: 1rem;
-}
-a[href="excel.html"] {
-  background-color: yellow;
-  padding: 1rem;
-}
-a[href="comics.html"] {
-  background-color: yellow;
-  padding: 1rem;
-}
-a[href="cook.html"] {
-  background-color: yellow;
-  padding: 1rem;
-}
-a[href="tv.html"] {
-  background-color: yellow;
-  padding: 1rem;
-}
-a[href="music.html"] {
-  background-color: yellow;
-  padding: 1rem;
+  color: limegreen;
+  background-color: lightgrey;
+  padding: 2rem;
+  height: 2rem;
+
 }
