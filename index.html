@@ -13,20 +13,35 @@ p {font-family: "Audiowide", sans-serif; }
 a {font-family: "Trirong", serif;}
 }
 </style>
+<style>
+div {
+  width: 10px;
+  height: 10px;
+  background: limegreen;
+  transition: width 4s;
+}
+
+div:hover {
+  width: 300px;
+}
+
+</style>
   </head>
   <body>
     <i class="fa fa-car"style=font-size:80px;color:limegreen;></i>
-
+<div></div>
+<p>Hover over green box under the green car</p>
     <h1>Weclome!</h1>
     <h2 class="box-2">This webpage is dedicated to various topics and provides a platform for indivduals to connect and discuss these topics.
       This is essentially a sneak peek into me so welcome and feel free to roam through the various sub-topics.</h2>
     <header>
-        <ul>
-          <li><a>Home</a></li>
+ <ul>
+
+          <li><a class="box1 box">Home</a></li>
           <li><a>/</a></li>
-          <li><a>Projects</a></li>
+          <li><a class="box2 box">Projects</a></li>
           <li><a>/</a></li>
-          <li><a href="index2.html">About Me</a></li>
+          <li><a class="box2 box" href="index2.html">About Me</a></li>
         </ul>
 
 <br>
@@ -37,7 +52,8 @@ a {font-family: "Trirong", serif;}
             <img src="pups.jpg" width="444" height="333" alt="This is an image of some adorable pups.">
               <figcaption><em>Some fur buddies to brighten your day.</em></figcaption>
           </figure></a>
-          <p>This project is a prototype for a pup services start-up. The intention is provide a stress-free service for pet owners as well as promote pet adoption. Although the site is heavier on the pups side, we do not discriminate and welcome any animal buddy (within our limits of course, we're not a Zoo). For additonal information, please click on the <a href="semantic-elements/index.html">PUPS4YOU_PUPS4ME</a> of this section to be re-directed to the offical site.</p>
+                <p>This project is a prototype for a pup services start-up. The intention is provide a stress-free service for pet owners as well as promote pet adoption. Although the site is heavier on the pups side, we do not discriminate and welcome any animal buddy (within our limits of course, we're not a Zoo). For additonal information, please click below: <br>
+                  <div class="square"><a href="semantic-elements/index.html">PUPS4YOU_PUPS4ME</div></a></p>
           <article> <small>This is not a real page but I encourage pet adoption as there are so many beatiful souls needing a home and most importantly a family.</small></article>
     <i class="fa fa-car"style=font-size:80px;color:green;></i>
           <h2><a class="flex-container" style="background-color:green;""><b>Excel Tips/Tricks</b></a></h2>
@@ -75,12 +91,14 @@ a {font-family: "Trirong", serif;}
     <i class="fa fa-car"style=font-size:80px;color:white;></i>
           <h2><a class="flex-container" style="background-color:white;""><b>Music</b></a></h2>
           <figure>
-              <img src="music.jpg" width="444" height="333" alt="This is an image of a RECORD PLAYER">
-          </figure></a>
+              <div class="turn"><img src="music.jpg" width="444" height="333" alt="This is an image of a RECORD PLAYER">
+          </figure></a></div>
           <p>This page is dedicated to music, my recommendations and reviews. Concerts experience and opens it up to you to share. For additonal information, please click here: <a href="music.html">MUSIC</a> to be re-directed to the offical site.</P>
             <article> <small>This is a work in progress, still not developed.</small></article>
     </header>
+
     <i class="fa fa-car"style=font-size:80px;color:black;></i>
+
   </body>
   <footer>
   <small><p>Author: C. Travnicek <br><time>Last Updated: 17:50PM</time></p></small>

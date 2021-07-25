@@ -1,3 +1,62 @@
+.turn {
+  border-radius: 2% 50%;
+  height: 200px;
+  margin: 200px;
+  transition: all 3s;
+  transition-timing: ease-in-out;
+  width: 200px;
+}
+.turn:hover {
+  transform: rotate(1080deg);
+}
+
+
+
+.square {
+  background: pink;
+  border-radius: 2.5px;
+  height: 50px;
+  margin: 50px;
+  transition: transform 2s;
+  width: 50px;
+  text-align: center;
+}
+.square:hover {
+  transform: scale(2);
+}
+
+
+
+.container {
+  margin: 100px;
+}
+
+.box {
+  background: darkturquoise;
+  border-radius: 5px;
+  display: inline-block;
+  height: 80px;
+  margin: 20px;
+  width: 80px;
+
+
+  .container:hover & {
+    transform: scale(1.4);
+  }
+}
+
+.box1 {
+  transition: all 1.3s;
+}
+
+.box2 {
+  transition: all 1.3s 0.5s;
+}
+
+.box3 {
+  transition: all 1.3s 1s;
+}
+
 ul {
 display: flex;
 justify-content: center;
@@ -24,6 +83,7 @@ li a {
 li a:hover {
   background-color: grey;
 }
+
 
 .box-2 {
   height: 4rem;
