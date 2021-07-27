@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CONTACT</title>
+    <link rel="stylesheet"  href="contact.css">
+  </head>
+  <body>
+    <h1>CONTACT US:</h1>
+
+<h3>Let us know your thoughts!</h3>
+<br>
+<form method="GET">
+<label>First Name:
+  <input type="text" name="appliciantName">
+</label>
+<label>Last Name:
+  <input type="text" name="appliciantName">
+</label>
+<label>Email:
+  <input type="email" name="appliciantEmail">
+</label>
+<label>Phone: <small><em>Format: 123-456-7890</em></small>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+
+</label>
+<fieldset>
+  <legend>What topic(s) of the site are you referring to?</legend>
+  <label>
+  <input type="checkbox" name="type" value="puppies">Puppies
+  </label>
+  <label>
+  <input type="checkbox" name="type" value="excel">Excel
+  </label>
+  <label>
+  <input type="checkbox" name="type" value="comics">Comics
+  </label>
+  <label>
+  <input type="checkbox" name="type" value="cooking">Cooking
+  </label>
+  <label>
+  <input type="checkbox" name="type" value="music">Music
+  </label>
+  <label>
+  <input type="checkbox" name="type" value="TV">TV
+  </label>
+  <br>
+  <label>Message:
+    <br>
+    <textarea name="appliciantReason" rows="4" cols="50"></textarea>
+    </label>
+  <fieldset>
+
+      <legend>Do you wish to subscribe?</legend>
+    <label><input type="radio" name="special" value="Yes, love too review latest updates/news">
+      Yes, love too review latest updates/news!
+      </label>
+
+
+
+      <label><input type="radio" name="special" value="No thanks">
+        No thanks
+        </label>
+</fieldset>
+    <input type="submit" name="" value="Send Message">
+       <small><em>Have a great day!</em></small>
+
+</form>
+
+  </body>
+</html>
